@@ -1,0 +1,39 @@
+body {
+    display: flex;
+    border: 10px solid black;
+}
+
+.left-side {
+    display: flex;
+    flex-direction: column;
+}
+
+.right-side {
+    display: flex;
+    flex-direction: column;
+}
+
+.top {
+    display: flex;
+    height: 100px;
+}
+
+.middle {
+    display: flex;
+}
+
+.bottom {
+    display: flex;
+    flex-direction: column;
+}
+
+.account {
+    display: flex;
+}
+
+.anime {
+    display: flex;
+    max-width: 500px;
+    height: 1000px;
+}
+
