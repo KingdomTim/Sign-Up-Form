@@ -10,7 +10,7 @@
 <body>
     
     <div class="left-side">
-        <img src="anime1.jpg" class="anime1">
+        <img src="anime.jpg" class="anime">
     </div>
     
     <div class="right-side">
@@ -18,50 +18,55 @@
             Explore the things you love most
         </div>
         <div class="middle">
-            <form action="example.com/path" method="post">
+            <form action="#" method="post">
                 <div class="row1">
                     <div>
                         <label for="first_name">First Name</label>
-                        <input type="text" id="first_name">
+                        <input type="text" id="first_name" required>
                     </div>
                     
                     <div>
                     <label for="last_name">Last Name</label>
-                    <input type="text" id="last_name">
+                    <input type="text" id="last_name" required>
                     </div>
                 </div>
 
                 <div class="row2">
                     <div>
                         <label for="email">Email</label>
-                        <input type="email" name="email" id="email">
+                        <input type="email" name="email" id="email" required>
                     </div>
 
                     <div>
                         <label for="phone_number">Phone Number</label>
-                        <input type="tel" name="phone_number" id="phone_number">
+                        <input type="tel" name="phone_number" id="phone_number" required>
                     </div>
                 </div>
                 
                 <div class="row3">
                     <div>
                         <label for="user_password">Password</label>
-                        <input type="password" name="password" id="password">
+                        <input type="password" name="password" id="password" required>
                     </div>
 
                     <div>
                         <label for="confirm_password">Confirm Password</label>
-                        <input type="password" name="password" id="confirm_password">
+                        <input type="password" name="confirm_password" id="confirm_password" required>
                     </div>
                 </div>
-            </form>
         </div>
         <div class="bottom">
-            <button class="create">Create Account</button>
+            <label for="submit"></label>
+            <input type="submit" name="submit" id="submit" value="Create Account">
+        </form>
             <div class="account">
                 <div class="text">Already have an account?</div>
-                <div class="log-in">Log In</div>
+                <a href="https://github.com/KingdomTim" class="log-in">Log In</div></a>
             </div>
+            <footer class="footer"> 
+                Copyright © 2022 Made by KingdomTim 
+                <a href="https://github.com/KingdomTim/Sign-Up-Form" target= "_blank" href="noopener noreferrer"><img class="github" src="githubreal.png"></a>
+            </footer>
         </div>
     </div>
 

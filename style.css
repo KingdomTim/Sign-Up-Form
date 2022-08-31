@@ -1,7 +1,13 @@
+@font-face {
+    font-family: PatrickHand;
+    src: url(PatrickHand-Regular.ttf);
+}
+
 body {
     display: flex;
     flex: auto;
     margin: 0%;
+    font-family: PatrickHand, Arial, Helvetica, sans-serif;
 }
 
 .left-side {
@@ -25,6 +31,8 @@ body {
     align-items: center;
     background-color: aliceblue;
     box-shadow: 0 0 10px gray;
+    font-size: 35px;
+    font-weight: bold;
 }
 
 .middle {
@@ -46,11 +54,27 @@ body {
 #first_name,
 #last_name,
 #email,
-#password,
 #phone_number,
-#confirm_password {
+#password,
+#confirm_password
+ {
     display:flex;
     flex-direction: column;
+    border-radius: 3px;
+    border: 1px solid grey;
+    height: 25px;
+    width: 270px;
+    font-family: sans-serif;
+}
+
+label {
+    font-size: 20px;
+}
+
+input:focus {
+    outline: none;
+    border-color: lightblue;
+    box-shadow: 0 0 2px #665df5;
 }
 
 .bottom {
@@ -67,16 +91,56 @@ body {
     display: flex;
 }
 
-.anime1 {
+.anime {
     display: flex;
-    border: 1px solid black;
     flex: auto;
     max-width: 575px;
 }
 
-.create {
+#submit {
     width: 200px;
     border-radius: 5px;
+    border: none;
     background-color: antiquewhite;
+    font-family: PatrickHand;
+    font-weight: bold;
+    font-size: 25px;
+    cursor: pointer;
+    box-shadow: 0 0 10px grey;
+    transition: background-color 0.2s ease-in
 }
 
+.account {
+    display: flex;
+    gap: 5px;
+    font-size: 20px;
+}
+
+#submit:hover {
+    background-color: gold;
+}
+
+a {
+    text-decoration: none;
+}
+
+input {
+    font-size: 15px;
+    font-family: sans-serif;
+}
+
+.github {
+    height: 20px;
+    width: 20px;
+}
+    
+.github:hover {
+    transform: scale(1.1);
+}
+
+.footer {
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
