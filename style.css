@@ -1,39 +1,82 @@
 body {
     display: flex;
-    border: 10px solid black;
+    flex: auto;
+    margin: 0%;
 }
 
 .left-side {
     display: flex;
-    flex-direction: column;
+    flex: auto;
+    height: 100vh;
+    max-width: 575px;
 }
 
 .right-side {
     display: flex;
     flex-direction: column;
+    flex: auto;
+    box-shadow: 0 0 10px gray;
 }
 
 .top {
     display: flex;
-    height: 100px;
+    flex:auto;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+    box-shadow: 0 0 10px gray;
 }
 
 .middle {
     display: flex;
+    flex: auto;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.row1,
+.row2,
+.row3 {
+    display: flex;
+    gap: 60px;
+    margin: 20px;
+}
+
+#first_name,
+#last_name,
+#email,
+#password,
+#phone_number,
+#confirm_password {
+    display:flex;
+    flex-direction: column;
 }
 
 .bottom {
     display: flex;
     flex-direction: column;
+    flex: auto;
+    padding: 30px;
+    gap: 10px;
+    background-color: aliceblue;
+    box-shadow: 0 0 10px gray;
 }
 
 .account {
     display: flex;
 }
 
-.anime {
+.anime1 {
     display: flex;
-    max-width: 500px;
-    height: 1000px;
+    border: 1px solid black;
+    flex: auto;
+    max-width: 575px;
+}
+
+.create {
+    width: 200px;
+    border-radius: 5px;
+    background-color: antiquewhite;
 }
 
