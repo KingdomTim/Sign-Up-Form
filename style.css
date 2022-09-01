@@ -144,3 +144,16 @@ input {
     justify-content: center;
     gap: 5px;
 }
+
+.invalid {
+    outline: none;
+    border-color: red;
+    box-shadow: 0 0 2px #ff3c3c;    
+}
+
+.valid {
+    outline: none;
+    border-color: green;
+    box-shadow: 0 0 2px #00ff40
+}
+
