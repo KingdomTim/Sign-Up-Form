@@ -157,3 +157,6 @@ input {
     box-shadow: 0 0 2px #00ff40
 }
 
+.message {
+    position: absolute;
+}
