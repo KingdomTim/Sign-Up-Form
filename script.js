@@ -31,5 +31,14 @@ function checkPass(pass,confPass) {
     } 
 }
 
+function validateForm(pass,confPass) {
+    pass = document.getElementById("password").value
+    confPass = document.getElementById("confirm_password").value
+
+    if(pass != confPass) {
+        event.preventDefault()
+    }
+}
+
 password.onchange = checkPass
 confirmPassword.onchange = checkPass
